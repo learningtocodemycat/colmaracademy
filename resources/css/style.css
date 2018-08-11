@@ -210,5 +210,143 @@ border: 1px solid red;
 .sidecontainer1{
   border: 1px solid green;
   height: 40%;
+  display: flex;
 
+}
+
+.picture4{
+  width: 40%;
+height:80%;
+background-image: url(../images/information-orientation.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-top: 1rem;
+margin-left: 1rem;
+}
+
+.words6{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.words6 li:first-child {
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(58, 57,69);
+  font-family: sans-serif;
+  margin-left: 1.1rem;
+}
+
+
+.words6 li:nth-child(2){
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin-left: 1.1rem;
+  margin-top: 1rem;
+}
+
+.words6 li:nth-child(3){
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin-left: 1.1rem;
+  margin-top: 1rem;
+  color: blue;
+}
+
+
+.sidecontainer2{
+  border: 1px solid green;
+  height: 40%;
+  display: flex;
+}
+
+.words7{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+
+.words7 li:first-child {
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(58, 57,69);
+  font-family: sans-serif;
+  margin-left: 1.1rem;
+}
+
+
+.words7 li:nth-child(2){
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin-left: 1.1rem;
+  margin-top: 1rem;
+}
+
+.words7 li:nth-child(3){
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin-left: 1.1rem;
+  margin-top: 1rem;
+  color: blue;
+}
+
+
+.picture5{
+  width: 40%;
+height:80%;
+background-image: url(../images/information-campus.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-top: 1rem;
+margin-left: 1rem;
+}
+
+.sidecontainer3{
+  border: 1px solid green;
+  height: 40%;
+  background-color: lightgrey;
+  display: flex;
+}
+
+.picture6{
+  width: 70%;
+height:80%;
+background-image: url(../images/information-guest-lecture.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-top: 1rem;
+margin-left: 1rem;
+}
+.words8{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.words8 li:first-child {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: rgb(58, 57,69);
+  font-family: sans-serif;
+  margin-left: 1.1rem;
+}
+
+
+.words8 li:nth-child(2){
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin-left: 1.1rem;
+  margin-top: 1rem;
+}
+
+.words8 li:nth-child(3){
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin-left: 1.1rem;
+  margin-top: 1rem;
+  color: blue;
 }
